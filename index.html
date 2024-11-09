@@ -1,54 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>This is my Developer Website</title>
-    </head>
-    <body>
-        <div class="introduction">
-            <h1>Hello World</h1>
-            <p>My Name is Jareer Obaray this is my developer Website.
-                I will be displayint to of my projects below for anyone
-                 to view and would add a description next to it 
-            </p>
-        </div>
-        <div class="projects">
-            <div class="proj-1">
-                <h2>CodeCuisine - Interactive Menu System</h2>
-                <p>Description: The CodeCuisine project is a simple yet dynamic web application 
-                    that showcases an interactive menu system for a virtual restaurant. 
-                    Built with HTML, CSS, and JavaScript, the app allows users to browse through categories of food items 
-                    (e.g., Starters, Main Courses, Desserts) and create an order in real time.
-                </p>
-                <h3>Features:</h3>
-                <ol>
-                    <li>Dynamic Menu Display: Menu items are generated dynamically through JavaScript, making it easy to add or modify items without changing the HTML structure.</li>
-                    <li>Order Management: Users can select items by clicking on them, and each selection adds the item to an order list, updating the total cost with a set price per item.</li>
-                    <li>Responsive Layout: Styled with CSS, the layout is visually appealing, with a clean color scheme and structured sections for easy navigation.</li>
-                    <li>Reusable Code: JavaScript functions like displayMenuItems() and addToOrder() allow for efficient data handling, creating a modular, maintainable code structure.</li>
-                </ol>
-            </div>
-            <div class="proj-2">
-                <h2>Book Connect - A Refactored Digital Library System</h2>
-                <p>Description: Book Connect is a structured and efficient digital library project 
-                    designed to streamline the organization and display of books, authors, and genres.
-                    Through thoughtful refactoring and a modular design approach, the project enhances readability, maintainability, and reusability of code, 
-                    all while implementing key software development principles.
-                </p>
-                <h3>Key Features:</h3>
-                <ol>
-                    <li>Object-Oriented Structure: Books, authors, and genres are represented as distinct objects, allowing for easy management and expansion of data.</li>
-                    <li>Abstraction and Modularity: JavaScript functions are refactored for optimal performance, resulting in reusable components that simplify future updates and modifications.
-                    </li>
-                    <li>Web Components Integration: The book preview feature has been transformed into a custom Web Component, enabling encapsulated, reusable elements within the web page, with plans to convert other elements for a more cohesive user experience</li>
-                    <li>Documentation and Testing: Detailed documentation and comprehensive testing ensure reliability, making it easier for future developers to understand and contribute to the project.
-                    </li>
-                </ol>
-            </div>
-        </div>
-    </body>
-    <footer>
-        <p>For more infomation please contact me at</p>
-        <p>Copyright.co 2024 all rights reserved</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jareer Obaray - Developer Portfolio</title>
+    <meta name="description" content="Jareer Obaray's Developer Portfolio showcasing projects in web development.">
+    <meta name="keywords" content="Developer Portfolio, Web Development, JavaScript, HTML, CSS">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Full-width Navigation Menu -->
+    <nav class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Introduction Section -->
+    <header id="home" class="header">
+        <h1>Welcome to My Developer Portfolio</h1>
+        <p>Hello! I’m Jareer Obaray, a passionate developer. Below, you’ll find some of my key projects showcasing my skills in web development. Explore and enjoy!</p>
+    </header>
+
+    <!-- Projects Section with Images -->
+    <main id="projects" class="projects">
+        <!-- CodeCuisine Project -->
+        <section class="project-card">
+            <h2>CodeCuisine - Interactive Menu System</h2>
+            <img src="./images/JSL06-solution.gif" alt="CodeCuisine project screenshot" class="project-image">
+            <p>A dynamic web application showcasing an interactive menu system for a virtual restaurant.</p>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+            <h3>Features:</h3>
+            <ul>
+                <li><strong>Dynamic Menu Display:</strong> Menu items are generated dynamically through JavaScript.</li>
+                <li><strong>Order Management:</strong> Users can add items to an order list with real-time updates.</li>
+                <li><strong>Responsive Layout:</strong> Clean and structured design, optimized for all devices.</li>
+                <li><strong>Reusable Code:</strong> Modular JavaScript functions ensure efficient data handling.</li>
+            </ul>
+            <p><a href="https://github.com/MuhammadJareer190/Module_6_MUHJAR545_FTO2407_GroupA_Muhammad-Jareer-Obaray_JSL06" target="_blank">View CodeCuisine on GitHub</a></p>
+        </section>
+
+        <!-- Guardians Playlist Project -->
+        <section class="project-card">
+            <h2>Guardians Playlist - Customizable Music Collection</h2>
+            <img src="./images/JSL05_solution (1).png" alt="Guardians Playlist project screenshot" class="project-image">
+            <p>A customizable music collection inspired by Guardians of the Galaxy, allowing users to manage and play songs from a unique playlist.</p>
+            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+            <h3>Features:</h3>
+            <ul>
+                <li><strong>Music Database:</strong> Curated selection of songs with custom metadata.</li>
+                <li><strong>Playlist Management:</strong> Users can add, remove, and shuffle songs.</li>
+                <li><strong>Interactive Player:</strong> User-friendly interface for playing songs.</li>
+                <li><strong>Custom Styling:</strong> Theming options inspired by Guardians of the Galaxy.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer Section with Contact -->
+    <footer id="contact">
+        <p>For more information, feel free to <a href="mailto:jareer.obaray@example.com">contact me</a>.</p>
+        <p>&copy; 2024 Jareer Obaray. All rights reserved.</p>
     </footer>
+</body>
 </html>
